@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TMNTFragment">
+
+    <TextView
+        android:id="@+id/tvTMNTName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/teenage_mutant_ninja_turtles"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvStern"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvStern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
+        android:text="@string/stern_pinball"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/ivTMNT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTMNTName" />
+
+    <ImageView
+        android:id="@+id/ivTMNT"
+        android:layout_width="332dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/tmnt_image"
+        app:layout_constraintBottom_toTopOf="@+id/tvDateTMNT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStern"
+        app:srcCompat="@drawable/tmnt" />
+
+    <TextView
+        android:id="@+id/tvDateTMNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:text="@string/may_2020"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTMNT" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

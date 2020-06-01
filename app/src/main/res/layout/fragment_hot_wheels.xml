@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotWheels">
+
+    <TextView
+        android:id="@+id/tvHotWheelsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/hot_wheels"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/ivHotWheels"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAmericanPinball" />
+
+    <TextView
+        android:id="@+id/tvAmericanPinball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/american_pinball"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvHotWheelsName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivHotWheels"
+        android:layout_width="318dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="26dp"
+        android:contentDescription="@string/hotwheelsimage"
+        app:layout_constraintBottom_toTopOf="@+id/tvHotWheelsDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHotWheelsName"
+        app:srcCompat="@drawable/hotwheels" />
+
+    <TextView
+        android:id="@+id/tvHotWheelsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="@string/march_2020"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivHotWheels" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

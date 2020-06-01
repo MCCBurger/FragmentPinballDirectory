@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FragmentPinballDirectory</string>
+    <string name="willy_wonka">Willy Wonka</string>
+    <string name="hot_wheels">Hot Wheels</string>
+    <string name="tmnt">TMNT</string>
+    <string name="pinball_directory">Pinball Directory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="teenage_mutant_ninja_turtles">Teenage Mutant Ninja Turtles</string>
+    <string name="may_2020">May 2020</string>
+    <string name="stern_pinball">Stern Pinball</string>
+    <string name="tmnt_image">TMNT IMAGE</string>
+
+    <string name="american_pinball">American Pinball</string>
+    <string name="march_2020">March 2020</string>
+    <string name="hotwheelsimage">HotWheelsImage</string>
+
+    <string name="jersey_jack_pinball">Jersey Jack Pinball</string>
+    <string name="april_2019">April 2019</string>
+    <string name="wonkaimage">WONKAIMAGE</string>
+</resources>
